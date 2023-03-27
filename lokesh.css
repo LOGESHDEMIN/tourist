@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(cloud.jpg);
+    background-size: cover;
+}
+.main{
+    height: 700px;
+    width: 90%;
+   
+    margin-left: 5%;
+
+}
+.div1{
+    height: 300px;
+    width: 50%;
+    background-color:transparent;
+    padding-top: 30px;
+}
+button{
+    padding: 10px;
+}
+.div2{
+    height: 300px;
+    width: 100%;
+    background-color:transparent;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+}
+.box h2{
+      margin-left: 20px;
+      color: black;
+}
+.box img{
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.footer{
+    height: 70px;
+    width: 100%;
+    background-color: gray;
+    
+    
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: right 20px;
+    margin-left: 250px;
+    margin-top: 20px;
+}
+ul li{
+    padding-right: 20px;
+    margin-top: 25px;
+
+}
+a{
+    color: aqua;
+}
